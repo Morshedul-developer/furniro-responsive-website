@@ -1,19 +1,23 @@
 /* mobile device */
 @media screen and (max-width: 576px) {
-    .container{
-        padding: 0 16px;
-    }
-    .primary-btn{
-        padding: 16px 40px;
-        font-size: .9rem;
-    }
+  .container {
+    padding: 0 16px;
+  }
+  .primary-btn {
+    padding: 16px 40px;
+    font-size: 0.9rem;
+  }
   .nav-links,
   .header-icons {
     display: none;
   }
-  header > nav > .logo{
+  .navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  header > nav > .logo {
     gap: 4px;
-}
+  }
   .hamburger {
     display: block;
     font-size: 1.45rem;
@@ -26,48 +30,55 @@
     font-size: 1.8rem;
   }
 
-  .banner{
+  .banner {
     background-size: 100% 100%;
     min-height: 550px;
     padding-right: 0;
     justify-content: center;
     padding: 0 16px;
-}
-.banner > div{
+  }
+  .banner > div {
     padding: 20px 20px;
-}
-.banner > div > strong{
-    font-size: .7rem;
+  }
+  .banner > div > strong {
+    font-size: 0.7rem;
     margin-bottom: 2px;
-}
-.banner > div > h1{
+  }
+  .banner > div > h1 {
     font-size: 2.2rem;
     line-height: 42px;
     margin-bottom: 12px;
-}
-.banner > div > p{
+  }
+  .banner > div > p {
     max-width: 500px;
-    font-size: .875rem;
+    font-size: 0.875rem;
     margin-bottom: 20px;
-}
+  }
 }
 
 /* tablet device */
 @media screen and (min-width: 577px) and (max-width: 992px) {
+  .container {
+    padding: 0 24px;
+  }
   .nav-links,
   .header-icons {
     display: none;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   .hamburger {
     display: block;
     font-size: 1.5rem;
   }
 
-  .banner{
+  .banner {
     background-size: 100% 100%;
     min-height: 550px;
     padding-right: 0;
     justify-content: right;
-    padding: 0 16px;
-}
+    padding: 0 24px;
+  }
 }
