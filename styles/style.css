@@ -51,9 +51,9 @@ main > section{
     color: var(--text-white);
     background-color: var(--primary-btn-bg);
     cursor: pointer;
-    padding: 25px 70px;
+    padding: 20px 70px;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     border-radius: 8px;
     -webkit-border-radius: 8px;
@@ -178,16 +178,20 @@ header > nav > ul > li > a{
 }
 
 /* product section */
-.product .section-title{
+.product{
     text-align: center;
+}
+.product .section-title{
     margin-bottom: 50px;
 }
 .product-cards{
     grid-template-columns: repeat(4, 1fr);
     gap: 32px;
     justify-items: center;
+    margin-bottom: 32px;
 }
 .product-card{
+    text-align: left;
     background-color: var(--product-card-bg);
     border-radius: 8px;
     -webkit-border-radius: 8px;
@@ -253,4 +257,11 @@ header > nav > ul > li > a{
 #product-card-6 .badge,
 #product-card-8 .badge{
     background-color: var(--badge-bg-color-2);
+}
+.product > button{
+    background-color: transparent;
+    color: var(--primary-btn-bg);
+    border: 1px solid var(--primary-btn-bg);
+    padding: 12px 70px;
+    text-transform: capitalize;
 }

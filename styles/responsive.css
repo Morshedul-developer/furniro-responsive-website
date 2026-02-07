@@ -82,6 +82,7 @@
   .product-cards{
     grid-template-columns: 1fr;
     gap: 20px;
+    margin-bottom: 20px;
 }
 .product-card{
     width: 100%;
@@ -102,6 +103,9 @@
 }
 .rp{
     font-size: .9rem;
+}
+.product > button{
+    padding: 12px 45px;
 }
 }
 
