@@ -3,9 +3,15 @@
   .container {
     padding: 0 16px;
   }
+  .section-title {
+    font-size: 1.6rem;
+  }
   .primary-btn {
     padding: 16px 40px;
     font-size: 0.9rem;
+  }
+  .browse-cards {
+    flex-direction: column;
   }
   .nav-links,
   .header-icons {
@@ -54,12 +60,30 @@
     font-size: 0.875rem;
     margin-bottom: 20px;
   }
+
+  .browse > p {
+    font-size: 0.875rem;
+  }
+
+  .browse-card > img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .browse-card > h5 {
+    font-size: 1.1rem;
+  }
 }
 
 /* tablet device */
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .container {
-    padding: 0 24px;
+    padding: 0 20px;
+  }
+  .browse-cards {
+    flex-wrap: wrap;
+  }
+  .section-title {
+    font-size: 1.7rem;
   }
   .nav-links,
   .header-icons {
@@ -80,5 +104,12 @@
     padding-right: 0;
     justify-content: right;
     padding: 0 24px;
+  }
+
+  .browse-card > img {
+    margin-bottom: 20px;
+  }
+  .browse-card > h5 {
+    font-size: 1.3rem;
   }
 }
