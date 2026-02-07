@@ -1,5 +1,12 @@
 /* mobile device */
 @media screen and (max-width: 576px) {
+    .container{
+        padding: 0 16px;
+    }
+    .primary-btn{
+        padding: 16px 40px;
+        font-size: .9rem;
+    }
   .nav-links,
   .header-icons {
     display: none;
@@ -18,6 +25,31 @@
   .logo > h3 {
     font-size: 1.8rem;
   }
+
+  .banner{
+    background-size: 100% 100%;
+    min-height: 550px;
+    padding-right: 0;
+    justify-content: center;
+    padding: 0 16px;
+}
+.banner > div{
+    padding: 20px 20px;
+}
+.banner > div > strong{
+    font-size: .7rem;
+    margin-bottom: 2px;
+}
+.banner > div > h1{
+    font-size: 2.2rem;
+    line-height: 42px;
+    margin-bottom: 12px;
+}
+.banner > div > p{
+    max-width: 500px;
+    font-size: .875rem;
+    margin-bottom: 20px;
+}
 }
 
 /* tablet device */
@@ -30,4 +62,12 @@
     display: block;
     font-size: 1.5rem;
   }
+
+  .banner{
+    background-size: 100% 100%;
+    min-height: 550px;
+    padding-right: 0;
+    justify-content: right;
+    padding: 0 16px;
+}
 }
