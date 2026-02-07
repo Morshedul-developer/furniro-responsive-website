@@ -25,12 +25,22 @@ html{
   margin: auto;
 }
 
+main > section{
+    margin-top: 56px;
+}
+
 .flex {
   display: flex;
 }
 
 .grid {
   display: grid;
+}
+
+.section-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--banner-text-main);
 }
 
 .primary-btn{
@@ -138,4 +148,28 @@ header > nav > ul > li > a{
     line-height: 24px;
     color: var(--banner-text-main);
     margin-bottom: 32px;
+}
+
+/* browse section */
+.browse{
+    text-align: center;
+}
+.browse > p{
+    font-size: 1.25rem;
+    color: #666666;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+.browse-cards{
+    gap: 20px;
+    justify-content: center;
+}
+.browse-card > img{
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+.browse-card > h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--banner-text-main);
 }
