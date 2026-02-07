@@ -33,6 +33,22 @@ html{
   display: grid;
 }
 
+.primary-btn{
+    border: none;
+    color: var(--text-white);
+    background-color: var(--primary-btn-bg);
+    cursor: pointer;
+    padding: 25px 70px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
 /* main styles */
 
 /* header section */
@@ -72,21 +88,8 @@ header > nav > ul > li > a{
     height: 25px;
     cursor: pointer;
 }
-
-.primary-btn{
-    border: none;
-    color: var(--text-white);
-    background-color: var(--primary-btn-bg);
-    cursor: pointer;
-    padding: 25px 70px;
-    font-size: 1rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
+.hamburger{
+    display: none;
 }
 
 /* banner section */
