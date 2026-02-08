@@ -17,6 +17,7 @@ html{
     --heading-color: black;
     --banner-info-bg: #FFF3E3;
     --product-card-bg: #F4F5F7;
+    --inspiration-bg-color: #FCF8F3;
     --banner-text-main: #333333;
     --primary-btn-bg: #B88E2F;
     --badge-bg-color: #E97171;
@@ -29,7 +30,7 @@ html{
 }
 
 main > section{
-    margin-top: 70px;
+    margin-top: 70px !important;
 }
 
 .flex {
@@ -264,4 +265,28 @@ header > nav > ul > li > a{
     border: 1px solid var(--primary-btn-bg);
     padding: 12px 70px;
     text-transform: capitalize;
+}
+
+/* inspiration section */
+.inspiration{
+    background-color: var(--inspiration-bg-color);
+}
+.inspiration-container{
+    align-items: center;
+}
+.inspiration-info > .section-title{
+    margin-bottom: 8px;
+}
+.inspiration-info > p{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 150%;
+    color: #616161;
+    margin-bottom: 25px;
+}
+.inspiration-info > button{
+    padding: 12px 40px;
+}
+.inspiration-images img{
+    vertical-align: middle;
 }

@@ -1,186 +1,227 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Furniro | Furniture</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/responsive.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+  </head>
+  <body>
     <!-- header section -->
     <header>
-        <nav class="navbar container flex">
-            <div class="logo flex">
-                <img src="assets/main_logo.png" alt="main_logo">
-                <h3>Furniro</h3>
-            </div>
-            <ul class="nav-links flex">
-                <li><a href="">Home</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-            <div class="header-icons flex">
-                <img src="assets/account-alert.png" alt="account-icon">
-                <img src="assets/search.png" alt="search-icon">
-                <img src="assets/heart.png" alt="heart-icon">
-                <img src="assets/shopping-cart.png" alt="cart-icon">
-            </div>
-            <div class="hamburger">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </nav>
-
-        <div class="banner flex">
-            <div>
-                <strong>New Arrival</strong>
-                <h1>Discover Our New Collection</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
-                <button class="primary-btn">Buy Now</button>
-            </div>
+      <nav class="navbar container flex">
+        <div class="logo flex">
+          <img src="assets/main_logo.png" alt="main_logo" />
+          <h3>Furniro</h3>
         </div>
+        <ul class="nav-links flex">
+          <li><a href="">Home</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <div class="header-icons flex">
+          <img src="assets/account-alert.png" alt="account-icon" />
+          <img src="assets/search.png" alt="search-icon" />
+          <img src="assets/heart.png" alt="heart-icon" />
+          <img src="assets/shopping-cart.png" alt="cart-icon" />
+        </div>
+        <div class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+
+      <div class="banner flex">
+        <div>
+          <strong>New Arrival</strong>
+          <h1>Discover Our New Collection</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis.
+          </p>
+          <button class="primary-btn">Buy Now</button>
+        </div>
+      </div>
     </header>
 
     <!-- main section -->
-    <main class="container">
-        <!-- browse section -->
-        <section class="browse">
-            <h3 class="section-title">Browse The Range</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div class="browse-cards flex">
-                <div class="browse-card">
-                    <img src="./assets/dining.png" alt="">
-                    <h5>Dining</h5>
-                </div>
-                <div class="browse-card">
-                    <img src="./assets/living.png" alt="">
-                    <h5>Living</h5>
-                </div>
-                <div class="browse-card">
-                    <img src="./assets/bedroom.png" alt="">
-                    <h5>Bedroom</h5>
+    <main>
+      <!-- browse section -->
+      <section class="browse container">
+        <h3 class="section-title">Browse The Range</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="browse-cards flex">
+          <div class="browse-card">
+            <img src="./assets/dining.png" alt="" />
+            <h5>Dining</h5>
+          </div>
+          <div class="browse-card">
+            <img src="./assets/living.png" alt="" />
+            <h5>Living</h5>
+          </div>
+          <div class="browse-card">
+            <img src="./assets/bedroom.png" alt="" />
+            <h5>Bedroom</h5>
+          </div>
+        </div>
+      </section>
+
+      <!-- product section -->
+      <section class="product container">
+        <h3 class="section-title">Our Products</h3>
+        <div class="product-cards grid">
+          <div class="product-card">
+            <div class="product-image">
+              <img src="./assets/image 1.png" alt="" />
+              <div class="badge flex">
+                <p>-30%</p>
+              </div>
+            </div>
+
+            <div class="product-info">
+              <h4>Syltherine</h4>
+              <p>Stylish cafe chair</p>
+              <strong class="flex"
+                >Rp 2.500.000 <del class="rp">Rp 3.500.000</del></strong
+              >
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="./assets/image 2.png" alt="" />
+            </div>
+
+            <div class="product-info">
+              <h4>Leviosa</h4>
+              <p>Stylish cafe chair</p>
+              <strong class="flex">Rp 2.500.000</strong>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="./assets/image 3.png" alt="" />
+              <div class="badge flex">
+                <p>-50%</p>
+              </div>
+            </div>
+
+            <div class="product-info">
+              <h4>Lolito</h4>
+              <p>Luxury big sofa</p>
+              <strong class="flex"
+                >Rp 7.000.000 <del class="rp">Rp 14.000.000</del></strong
+              >
+            </div>
+          </div>
+          <div id="product-card-4" class="product-card">
+            <div class="product-image">
+              <img src="./assets/image 4.png" alt="" />
+              <div class="badge flex">
+                <p>New</p>
+              </div>
+            </div>
+
+            <div class="product-info">
+              <h4>Respira</h4>
+              <p>Outdoor bar table and stool</p>
+              <strong class="flex">Rp 500.000</strong>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="./assets/image 5.png" alt="" />
+            </div>
+
+            <div class="product-info">
+              <h4>Grifo</h4>
+              <p>Night lamp</p>
+              <strong class="flex">Rp 1.500.000</strong>
+            </div>
+          </div>
+          <div id="product-card-6" class="product-card">
+            <div class="product-image">
+              <img src="./assets/image 6.png" alt="" />
+              <div class="badge flex">
+                <p>New</p>
+              </div>
+            </div>
+
+            <div class="product-info">
+              <h4>Muggo</h4>
+              <p>Small mug</p>
+              <strong class="flex">Rp 150.000</strong>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="./assets/image 7.png" alt="" />
+              <div class="badge flex">
+                <p>-50%</p>
+              </div>
+            </div>
+
+            <div class="product-info">
+              <h4>Pingky</h4>
+              <p>Cute bed set</p>
+              <strong class="flex"
+                >Rp 7.000.000 <del class="rp">Rp 14.000.000</del></strong
+              >
+            </div>
+          </div>
+          <div id="product-card-8" class="product-card">
+            <div class="product-image">
+              <img src="./assets/image 8.png" alt="" />
+              <div class="badge flex">
+                <p>New</p>
+              </div>
+            </div>
+
+            <div class="product-info">
+              <h4>Potty</h4>
+              <p>Minimalist flower pot</p>
+              <strong class="flex">Rp 500.000</strong>
+            </div>
+          </div>
+        </div>
+        <button class="primary-btn">Show More</button>
+      </section>
+
+      <!-- inspiration section -->
+      <section class="inspiration">
+        <div class="inspiration-container container flex">
+          <div class="inspiration-info">
+            <h4 class="section-title">50+ Beautiful rooms inspiration</h4>
+            <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+            <button class="primary-btn">Explore More</button>
+          </div>
+          <div class="inspiration-images flex">
+            <div class="ins-img-1">
+                <img src="assets/inspiration-1.png" alt="">
+            </div>
+            <div class="ins-img-2">
+                <img src="assets/inspiration-2.png" alt="">
+                <div class="scroll">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </div>
             </div>
-        </section>
-
-        <!-- product section -->
-         <section class="product">
-            <h3 class="section-title">Our Products</h3>
-            <div class="product-cards grid">
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="./assets/image 1.png" alt="">
-                        <div class="badge flex">
-                            <p>-30%</p>
-                        </div>
-                    </div>
-
-                    <div class="product-info">
-                        <h4>Syltherine</h4>
-                        <p>Stylish cafe chair</p>
-                        <strong class="flex">Rp 2.500.000 <del class="rp">Rp 3.500.000</del></strong>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="./assets/image 2.png" alt="">
-                    </div>
-
-                    <div class="product-info">
-                        <h4>Leviosa</h4>
-                        <p>Stylish cafe chair</p>
-                        <strong class="flex">Rp 2.500.000</strong>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="./assets/image 3.png" alt="">
-                        <div class="badge flex">
-                            <p>-50%</p>
-                        </div>
-                    </div>
-
-                    <div class="product-info">
-                        <h4>Lolito</h4>
-                        <p>Luxury big sofa</p>
-                        <strong class="flex">Rp 7.000.000 <del class="rp">Rp 14.000.000</del></strong>
-                    </div>
-                </div>
-                <div id="product-card-4" class="product-card">
-                    <div class="product-image">
-                        <img src="./assets/image 4.png" alt="">
-                        <div class="badge flex">
-                            <p>New</p>
-                        </div>
-                    </div>
-
-                    <div class="product-info">
-                        <h4>Respira</h4>
-                        <p>Outdoor bar table and stool</p>
-                        <strong class="flex">Rp 500.000</strong>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="./assets/image 5.png" alt="">
-                    </div>
-
-                    <div class="product-info">
-                        <h4>Grifo</h4>
-                        <p>Night lamp</p>
-                        <strong class="flex">Rp 1.500.000</strong>
-                    </div>
-                </div>
-                <div id="product-card-6" class="product-card">
-                    <div class="product-image">
-                        <img src="./assets/image 6.png" alt="">
-                        <div class="badge flex">
-                            <p>New</p>
-                        </div>
-                    </div>
-
-                    <div class="product-info">
-                        <h4>Muggo</h4>
-                        <p>Small mug</p>
-                        <strong class="flex">Rp 150.000</strong>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="./assets/image 7.png" alt="">
-                        <div class="badge flex">
-                            <p>-50%</p>
-                        </div>
-                    </div>
-
-                    <div class="product-info">
-                        <h4>Pingky</h4>
-                        <p>Cute bed set</p>
-                        <strong class="flex">Rp 7.000.000 <del class="rp">Rp 14.000.000</del></strong>
-                    </div>
-                </div>
-                <div id="product-card-8" class="product-card">
-                    <div class="product-image">
-                        <img src="./assets/image 8.png" alt="">
-                        <div class="badge flex">
-                            <p>New</p>
-                        </div>
-                    </div>
-
-                    <div class="product-info">
-                        <h4>Potty</h4>
-                        <p>Minimalist flower pot</p>
-                        <strong class="flex">Rp 500.000</strong>
-                    </div>
-                </div>
-            </div>
-            <button class="primary-btn">Show More</button>
-         </section>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- footer section -->
     <footer></footer>
-</body>
+  </body>
 </html>
