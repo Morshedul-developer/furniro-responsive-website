@@ -299,6 +299,7 @@ header > nav > ul > li > a{
 .scroll{
     gap: 20px;
     align-items: center;
+    justify-content: center;
 }
 .scroll > div{
     width: 11px;
