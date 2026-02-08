@@ -309,9 +309,10 @@ header > nav > ul > li > a{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    cursor: pointer;
 }
 .ins-img-2 > img{
-    margin-bottom: 40px;
+    margin-bottom: 34px;
 }
 .scroll div:nth-child(1) {
     background-color: transparent;
@@ -329,4 +330,26 @@ header > nav > ul > li > a{
     -o-border-radius: 50%;
     border: none;
     background-color: var(--primary-btn-bg);
+}
+.scroll div:nth-child(5) {
+    background-color: var(--text-white);
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 14px 1px rgba(0, 0, 0, 0.16);
+    transition: transform .3s ease-in-out 0s;
+    -webkit-transition: transform .3s ease-in-out 0s;
+    -moz-transition: transform .3s ease-in-out 0s;
+    -ms-transition: transform .3s ease-in-out 0s;
+    -o-transition: transform .3s ease-in-out 0s;
+}
+.scroll div:nth-child(5) > i{
+    color: var(--primary-btn-bg);
+}
+.scroll div:nth-child(5):hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
