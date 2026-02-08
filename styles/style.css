@@ -18,6 +18,7 @@ html{
     --banner-info-bg: #FFF3E3;
     --product-card-bg: #F4F5F7;
     --inspiration-bg-color: #FCF8F3;
+    --scroll-bg-color: #D8D8D8;
     --banner-text-main: #333333;
     --primary-btn-bg: #B88E2F;
     --badge-bg-color: #E97171;
@@ -270,6 +271,7 @@ header > nav > ul > li > a{
 /* inspiration section */
 .inspiration{
     background-color: var(--inspiration-bg-color);
+    padding: 44px 0;
 }
 .inspiration-container{
     align-items: center;
@@ -278,6 +280,7 @@ header > nav > ul > li > a{
     margin-bottom: 8px;
 }
 .inspiration-info > p{
+    max-width: 380px;
     font-size: 1rem;
     font-weight: 500;
     line-height: 150%;
@@ -289,4 +292,41 @@ header > nav > ul > li > a{
 }
 .inspiration-images img{
     vertical-align: middle;
+}
+.inspiration-images{
+    gap: 24px;
+}
+.scroll{
+    gap: 20px;
+    align-items: center;
+}
+.scroll > div{
+    width: 11px;
+    height: 11px;
+    background-color: var(--scroll-bg-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.ins-img-2 > img{
+    margin-bottom: 40px;
+}
+.scroll div:nth-child(1) {
+    background-color: transparent;
+    border: 1px solid var(--primary-btn-bg);
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.scroll div:nth-child(1) .selected {
+    padding: 6px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: none;
+    background-color: var(--primary-btn-bg);
 }
