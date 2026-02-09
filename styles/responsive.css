@@ -129,6 +129,24 @@
   .ins-img-2 > img {
     margin-bottom: 20px;
   }
+
+  .furniture-container > span{
+    font-size: .9rem;
+}
+  .furniture-container > .section-title{
+    margin-bottom: 25px;
+}
+  .furniture-images {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    grid-auto-rows: 250px;
+  }
+  .furniture-images > div {
+    grid-column: auto !important;
+  }
+  .furniture-images img{
+    object-fit: cover;
+}
 }
 
 /* tablet device */
@@ -202,4 +220,19 @@
   .ins-img-2 > img {
     margin-bottom: 16px;
   }
+
+  .furniture-images {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: none;
+    grid-auto-rows: 270px;
+  }
+  .furniture-images > div {
+    grid-column: auto !important;
+  }
+  .furniture-images img{
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 }
