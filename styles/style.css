@@ -354,3 +354,59 @@ header > nav > ul > li > a{
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
+
+/* furniture section */
+.furniture-container{
+    text-align: center;
+}
+.furniture-container > span{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #616161;
+    margin-bottom: 8px;
+}
+.furniture-container > .section-title{
+    margin-bottom: 45px;
+}
+.furniture-images{
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 280px);
+    gap: 16px;
+}
+.furniture-images img{
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+.furniture-images > div{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    overflow: hidden;
+}
+.furniture-images > div:nth-child(1) {
+    grid-column: span 2;
+}
+.furniture-images > div:nth-child(2) {
+    grid-column: span 4;
+}
+.furniture-images > div:nth-child(3) {
+    grid-column: span 3;
+}
+.furniture-images > div:nth-child(4) {
+    grid-column: span 3;
+}
+.furniture-images > div:nth-child(5) {
+    grid-column: span 3;
+}
+.furniture-images > div:nth-child(6) {
+    grid-column: span 4;
+}
+.furniture-images > div:nth-child(7) {
+    grid-column: span 2;
+}
+.furniture-images > div:nth-child(8) {
+    grid-column: span 3;
+}
