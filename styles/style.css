@@ -30,7 +30,8 @@ html{
   margin: auto;
 }
 
-main > section{
+main > section,
+footer{
     margin-top: 70px !important;
 }
 
@@ -409,4 +410,61 @@ header > nav > ul > li > a{
 }
 .furniture-images > div:nth-child(8) {
     grid-column: span 3;
+}
+
+/* footer section */
+footer{
+    background-color: #b0b0b018;
+    padding: 60px 0;
+}
+.footer-container{
+    grid-template-columns: repeat(4,1fr);
+    gap: 80px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #d3cece;
+    margin-bottom: 35px;
+}
+.footer-container ul li{
+    list-style: none;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: rgba(0, 0, 0, 0.819);
+}
+.footer-logo > h4{
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+.footer-logo > p{
+    color: #7e7979;
+}
+.footer-container ul > li:nth-child(1),
+.footer-container form > p {
+    font-weight: 600;
+    color: #756f6f;
+    margin-bottom: 60px;
+}
+.footer-container ul > li:last-child {
+    margin-bottom: 0px;
+}
+.footer-container > form > input[type="email"]{
+    border: none;
+    outline: none;
+    padding: 16px;
+    width: 250px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.footer-container > form > button{
+    border: none;
+    outline: none;
+    font-size: .9rem;
+    padding: 12px 40px;
+}
+footer > p{
+    text-align: center;
+    color: #5f5c5c;
 }
