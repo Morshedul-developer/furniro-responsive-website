@@ -70,6 +70,7 @@
   .browse > p,
   .inspiration-info > p {
     font-size: 0.875rem;
+    margin-bottom: 24px;
   }
 
   .browse-card > img {
